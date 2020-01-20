@@ -1,0 +1,64 @@
+
+body h1, body h2, body h3, body h4 {
+  font-family: 'Montserrat', sans-serif; }
+body p {
+  font-family: 'Lato', sans-serif; }
+
+nav {
+  background-color: #2c3e50;
+  padding: 2rem !important; }
+  nav a {
+    color: #ffffff !important; }
+
+.portfolioHeader {
+  padding: 2rem;
+  background-color: #1abc9c; }
+  .portfolioHeader .avatar {
+    width: 15rem; }
+  .portfolioHeader .headerText {
+    font-size: 4rem;
+    font-weight: 700; }
+  .portfolioHeader .title {
+    font-size: 1.5rem;
+    font-weight: 400; }
+
+.aboutSection {
+  background-color: #1abc9c; }
+  .aboutSection .aboutTitle {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff; }
+  .aboutSection .aboutText {
+    margin-top: 1rem;
+    font-size: 1.2rem; }
+  .aboutSection .btn-xl {
+    font-size: 1.25rem;
+    padding: 1rem 1.75rem; }
+
+.contactSection {
+  background-color: #ffffff; }
+  .contactSection .contactTitle {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2c3e50;
+    padding-top: 4rem; }
+  .contactSection .mylabel {
+    font-size: 2.85em !important; }
+
+.divider-icon {
+  font-size: 2rem !important;
+  display: flex;
+  flex-direction: row; }
+  .divider-icon i {
+    margin-left: 1rem;
+    margin-right: 1rem; }
+
+.divider-icon:before,
+.divider-icon:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 0.3rem solid #fff;
+  margin: auto;
+  width: 5rem; }
+
+/*# sourceMappingURL=style.css.map */
