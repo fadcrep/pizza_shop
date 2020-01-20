@@ -25,7 +25,8 @@
                     <div class="text-center pizza ">
                         <img src="pizza-hut.jpg" class=" rounded-circle" width="35%">
                     </div>
-                    <form action="http://localhost:8081/process_get" id="contactform" method="get">
+                    <form action="http://localhost:8081/process_get" id="contactform" method="post"
+                        enctype="multipart/form-data">
                         <div class="control-group">
                             <div class="form-group controls label-and-input mb-0 pb-2">
                                 <label>Quantité</label>
@@ -54,6 +55,13 @@
                             <div class="form-group controls label-and-input mb-0 pb-2">
                                 <label>Phone number</label>
                                 <input type="tel" name="phone" id="" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="form-group controls label-and-input mb-0 pb-2">
+                                <label>Upload une photo</label>
+                                <input type="file" name="file" id="" class="form-control">
                             </div>
                         </div>
                         <div class="control-group">
